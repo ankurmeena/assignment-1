@@ -1,6 +1,6 @@
 you can directly run your api request from backened side in terminal from server.js folder
 
-//all api request
+//all api request---------------------------------------------------------------------------------------------------------------------------------------
 
 => Here are some example API calls that can be made to this server:
 
@@ -26,7 +26,7 @@ DELETE /api/authors/456: Deletes the author with ID 456.
 
 The server also includes error handling for invalid requests, such as missing required fields or attempting to modify the ID field of a resource.
 
-//request test in terminal
+//request test in terminal-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 => In TERMINAL you can request api using curl for eg: GET /posts : curl -X GET 'http://localhost:8000/api/posts' -H 'Content-Type: application/json'
 
